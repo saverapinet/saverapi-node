@@ -1,0 +1,36 @@
+{
+  "name": "saverapi",
+  "version": "1.0.0",
+  "description": "Official Node.js / TypeScript SDK for SaverAPI.NET — video downloader API for YouTube (4K, MP3), Instagram, TikTok, Facebook, X, Pinterest and Threads, Telegram bot file_id, Shazam, music search, NSFW scan. Zero dependencies, typed, with a CLI.",
+  "keywords": [
+    "saverapi", "social media downloader api", "video downloader api", "all in one downloader",
+    "youtube downloader", "youtube downloader api", "youtube to mp3", "youtube 4k", "youtube api", "ytdl alternative", "yt-dlp alternative",
+    "instagram downloader", "instagram reels downloader", "instagram api", "instagram profile api",
+    "tiktok downloader", "tiktok api", "facebook video downloader", "twitter video downloader", "x video downloader",
+    "pinterest downloader", "threads downloader", "snapchat downloader", "vimeo downloader", "soundcloud downloader",
+    "shazam api", "song recognition", "music search api", "nsfw detection api",
+    "telegram bot", "telegram file_id", "telegraf", "grammy", "node-telegram-bot-api",
+    "typescript", "sdk", "api client", "cli"
+  ],
+  "homepage": "https://saverapi.net",
+  "repository": { "type": "git", "url": "git+https://github.com/saverapinet/saverapi-node.git" },
+  "bugs": { "url": "https://github.com/saverapinet/saverapi-node/issues" },
+  "license": "MIT",
+  "author": "SaverAPI.NET <saverapinet@gmail.com> (https://saverapi.net)",
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "bin": { "saverapi": "./cli.js" },
+  "files": ["index.js", "index.mjs", "index.d.ts", "cli.js", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "sideEffects": false,
+  "scripts": { "test": "node --test test/" }
+}
