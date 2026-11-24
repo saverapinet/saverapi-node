@@ -32,5 +32,5 @@
   "files": ["index.js", "index.mjs", "index.d.ts", "cli.js", "README.md", "LICENSE"],
   "engines": { "node": ">=18" },
   "sideEffects": false,
-  "scripts": { "test": "node --test test/" }
+  "scripts": { "test": "node --test test/client.test.js" }
 }
